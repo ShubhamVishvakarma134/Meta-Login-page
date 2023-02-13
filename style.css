@@ -1,0 +1,141 @@
+/* Universal things. */
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f0f2f5;
+}
+
+.logo{
+    width: 239px;
+    margin-top: 35px;
+    margin-left: 41%;   
+ }
+
+
+.login-box{   
+    background: #fff;
+    padding: 14px 13px;
+    width: 390px;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1), 0px 8px 16px 0px  rgba(0, 0, 0, 0.1);
+}
+
+
+.login-box p{
+    margin: 8px;
+    text-align: center;
+    font-size: 19px;
+}
+.login-box button{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 20px;
+    background: transparent;
+    border: 4px solid hsl(214, 89%, 52%);
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.login-box input{
+    width: 100%;
+    background: transparent;
+    border: 0.5px solid  #04d9ff;
+    outline: 0;
+    padding: 18px 10px;
+    border-radius: 4px;
+    margin: 6px 0;
+}
+
+::placeholder{
+    font-weight: 200;
+    color: #afa6a6;
+    font-size: 17px;
+}
+
+.login-box form button{
+    background: #4679df;
+    color: white;
+    border: 0;
+    box-shadow: none;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.login-box p a {
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    color: #1c78e0;
+}
+.login-box p a:hover{
+    text-decoration: underline;
+}
+
+section{
+    background: white;
+    margin-top: 30%;
+    padding: 8%;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+section .language p a{
+    color: #737373;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+section .language p{
+    padding-left: 9%;
+}
+
+
+
+
+
+
+
+section .links p a {
+    color: #737373;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 7px;
+}
+section .links p {
+    padding-left: 9%;
+    padding-right: 9%;
+}
+hr{
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 81%;
+    margin-bottom: 15px;
+}
+
+section .links p a:hover {
+    text-decoration: underline;
+}
+
+section .links .meta{
+    color: #737373;
+    margin: 15px;
+    font-size: 11px;
+    padding-left: 8.5%;
+}
